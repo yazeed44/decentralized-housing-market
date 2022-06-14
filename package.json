@@ -5,17 +5,26 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd eth-contracts && http_proxy='' https_proxy='' truffle test",
+    "solhint": "solhint -f table eth-contracts/**/*.sol",
+    "prettier": "prettier --write eth-contracts/**/*.{sol,js}"
   },
   "keywords": [],
   "author": "pk <pkrasam@gmail.com> (https://ipfs.infura.io/ipfs/QmSXiR9Khm3yo1J67nUopvVBxFJ8YGN2fUGZ34Etr3m92x/)",
   "license": "MIT",
   "devDependencies": {
-    "lite-server": "2.4.0"
+    "@truffle/hdwallet-provider": "2.0.8",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.7",
+    "solhint-plugin-prettier": "^0.0.5",
+    "truffle": "^5.5.18",
+    "truffle-plugin-verify": "^0.5.26",
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1"
+
   },
   "dependencies": {
-    "openzeppelin-solidity": "^2.2.0",
-    "solc": "^0.5.2",
-    "solc-js": "^0.5.2"
   }
 }
