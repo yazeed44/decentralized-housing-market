@@ -6,15 +6,23 @@ The capstone will build upon the knowledge you have gained in the course in orde
 # Test this repo
 
 ```bash
-git clone https://github.com/djade007/Blockchain-Capstone
+git clone https://github.com/yazeed44/Blockchain-Capstone
 npm i
 npm run test
 ```
 
 # Contract Address
 
-[Address (On rinkeby, includes ABI)](https://rinkeby.etherscan.io/address/0x07B996A667668068ea47a14f872d26E490010a59)
+[Address (On rinkeby, includes ABI)](https://rinkeby.etherscan.io/address/0x07B996A667668068ea47a14f872d26E490010a59)  
 [Opensea market](https://testnets.opensea.io/collection/property-4s8sfre7og)
+
+# Versions
+Truffle v5.5.18 (core: 5.5.18)
+Ganache v7.2.0
+Solidity v0.5.16 (solc-js)
+Node v16.15.1
+Web3.js v1.5.3
+
 
 # Project Resources
 
