@@ -1,4 +1,4 @@
-# Udacity Blockchain Capstone
+# Decentralized Housing Market
 
  Represent your ownership for property with an NFT. Ownership is represented ZK-SNARKs (Non-interactive zero-knowledge proof), allowing us to prove ownership of a property without revealing our identity 
 
