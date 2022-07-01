@@ -1,12 +1,11 @@
 # Udacity Blockchain Capstone
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
-
+ Represent your ownership for property with an NFT. Ownership is represented ZK-SNARKs (Non-interactive zero-knowledge proof), allowing us to prove ownership of a property without revealing our identity 
 
 # Test this repo
 
 ```bash
-git clone https://github.com/yazeed44/Blockchain-Capstone
+git clone https://github.com/yazeed44/decentralized-housing-market
 npm i
 npm run test
 ```
